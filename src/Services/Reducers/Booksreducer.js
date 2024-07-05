@@ -14,6 +14,12 @@ const Bookreducer = (state = MainState, action) => {
         Books: action.payload
       }
 
+      case "SingleRecord":
+
+      return{
+        ...state,
+        Books: action.payload
+      }
 
 
     default:
